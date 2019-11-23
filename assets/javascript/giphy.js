@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     //function that displays the gif buttons
     function displayGifButtons() {
-        $("#giphyButtonsView").empty();
+        $("#giphyButtonView").empty();
         for (var i = 0; i < hotcars.length; i++) {
             var gifButton = $("<button>");
             gifButton.addClass("cars");
@@ -19,12 +19,31 @@ $(document).ready(function() {
 })
 
 //function that adds new button
+function addGifButtons() {
 
+
+
+
+
+}
 
 
 
 //function that removes last button
+function removeGifButton() {
 
+
+
+
+
+}
 
 
 //function that displays gifs
+function displayGifButton() {
+
+
+
+
+
+}
