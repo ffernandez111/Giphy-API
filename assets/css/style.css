@@ -1,3 +1,15 @@
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#addcar:hover {
+    opacity: .5;
+}
+
+#removecar:hover {
+    opacity: .5;
+}
