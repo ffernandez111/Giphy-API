@@ -4,6 +4,8 @@ $(document).ready(function() {
     var hotcars = ["Volvo S60-R", "Audi RS-6", "Toyota Supra", "Ford Mustang GT", "Aston Martin Vulcan", "BMW M5", "McLaren P9", "Koenigsegg CCX"];
 
 
+
+
     //function that displays the gif buttons
     function displayGifButtons() {
         $("#giphyButtonView").empty();
