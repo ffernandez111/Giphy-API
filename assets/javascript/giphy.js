@@ -28,7 +28,30 @@ $(document).ready(function() {
             })
             .then(function(response) {
                 console.log(response)
-                var results = response.data
+                var results = response.data;
+                for (var i = 0; i < results.length; i++) {
+                    console.log(results)
+                    var carDiv = $("<div class=\"car-item\">")
+                    var rating = results[i].rating;
+
+                    var p = $("<p>").text("Rating: " + rating);
+
+                    var animated = results[i].images.fixed_height.url;
+                    var still = results[i].images.fixed_height_still.url;
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
             })
     })
 
