@@ -32,12 +32,15 @@ $(document).ready(function() {
                 for (var i = 0; i < results.length; i++) {
                     console.log(results)
                     var carDiv = $("<div class=\"car-item\">")
+
                     var rating = results[i].rating;
 
                     var p = $("<p>").text("Rating: " + rating);
 
                     var animated = results[i].images.fixed_height.url;
                     var still = results[i].images.fixed_height_still.url;
+
+                    var carImage = $("<img>");
 
                 }
 
